@@ -1,0 +1,50 @@
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: aquamarine;
+    border-radius: 5px solid black;
+    padding:10px 30px;
+    float: left;
+}
+
+
+.board {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    background-color:aqua;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+
+}
+
+.task-list {
+    min-height: 100px;
+    margin: 10px 0;
+}
+
+.task {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: move;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: calc(100% - 90px);
+    padding: 5px;
+   
+}
+
+button {
+    padding: 5px 10px;
+ 
+        border-radius: 5px solid black;
+    }
